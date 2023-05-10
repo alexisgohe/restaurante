@@ -23,7 +23,7 @@ export default function Playlist() {
       <div className="container_img">
         <img
           className="img_playlist"
-          src={Celular}
+          src="/celular.png"
           alt="Celular con spotify abierto"
         />
       </div>
