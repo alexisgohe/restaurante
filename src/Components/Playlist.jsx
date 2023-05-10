@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Playlist.css";
+import Celular from "../data/celular.png";
 
 import { BsSpotify, BsApple } from "react-icons/bs";
 
@@ -22,7 +23,7 @@ export default function Playlist() {
       <div className="container_img">
         <img
           className="img_playlist"
-          src="../data/celular.png"
+          src={Celular}
           alt="Celular con spotify abierto"
         />
       </div>
