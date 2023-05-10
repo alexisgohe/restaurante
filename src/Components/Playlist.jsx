@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Playlist.css";
+import Celular from "../data/celular.png";
 
 import { BsSpotify, BsApple } from "react-icons/bs";
 
