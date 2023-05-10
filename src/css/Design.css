@@ -1,0 +1,7 @@
+.container_design{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #141618;
+  color: #fff;
+}

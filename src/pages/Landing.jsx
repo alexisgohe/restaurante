@@ -10,6 +10,7 @@ import {
   Playlist,
   Maps,
   Footer,
+  Design,
 } from "../Components";
 import "../css/Landing.css";
 
@@ -26,6 +27,7 @@ export default function Landing() {
       <Playlist />
       <Maps />
       <Footer />
+      <Design />
     </div>
   );
 }

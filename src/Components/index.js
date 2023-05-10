@@ -8,3 +8,4 @@ export { default as Reservas } from "./Reservas";
 export { default as Playlist } from "./Playlist";
 export { default as Maps } from "./Maps";
 export { default as Footer } from "./Footer";
+export { default as Design } from "./Design";
