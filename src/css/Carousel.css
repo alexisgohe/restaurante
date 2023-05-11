@@ -26,12 +26,13 @@
 
 .slide-welcome {
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 5rem;
+  padding: 0 60px;
 }
 
 .slide-caption {
   font-size: 24px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .carousel .arrow-container.arrow-left {

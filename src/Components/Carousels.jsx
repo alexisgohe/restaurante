@@ -55,8 +55,8 @@ export default function Carousel() {
           className="slide-image"
         >
           <div className="slide-content">
-            <h2 className="slide-welcome">Bienvenido</h2>
-            <p className="slide-caption">al mejor restaurante de coatepec</p>
+            <h1 className="slide-welcome">Sabores auténticos de Coatepec</h1>
+            <p className="slide-caption">fusionando tradición y modernidad</p>
           </div>
 
           <div className="arrow-container arrow-left" onClick={prevSlide}>
