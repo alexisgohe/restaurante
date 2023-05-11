@@ -16,6 +16,7 @@ export default function Drink() {
         </div>
         <div className="container_coctel">
           <ThreeSixty
+            className="coctel_size"
             amount={17}
             imagePath="coctel"
             fileName="cocktail_360_{index}.png"

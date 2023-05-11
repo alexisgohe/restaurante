@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../css/Navbar.css";
-import Logo from "/logo.png";
+import Logo from "/logo.webp";
 
 export default function Navbar() {
   return (
