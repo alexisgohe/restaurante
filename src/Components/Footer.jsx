@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Footer.css";
-import Logo from "../data/logo.png";
+import Logo from "../data/logo.webp";
 
 import {
   BsSpotify,
