@@ -5,15 +5,15 @@ import "../css/Carousel.css";
 
 const slides = [
   {
-    url: "img1.jpg",
+    url: "img1.webp",
     caption: "Bienvenido",
   },
   {
-    url: "img2.jpg",
+    url: "img2.webp",
     caption: "Bienvenido",
   },
   {
-    url: "img3.jpg",
+    url: "img3.webp",
     caption: "Bienvenido",
   },
 ];
