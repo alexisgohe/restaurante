@@ -8,15 +8,29 @@ export default function Navbar() {
   return (
     <nav className="nav_container">
       <div className="nav_left">
-        <Link className="nav_link" to="/acerca-de">Acerca de</Link>
-        <Link className="nav_link" to="/menu">Menú</Link>
+        <Link className="nav_link" to="/restaurante/acerca-de">
+          Acerca de
+        </Link>
+        <Link className="nav_link" to="/restaurante/menu">
+          Menú
+        </Link>
       </div>
       <div className="nav_img">
-        <img className="img_logo" src={Logo} alt="Logo Restaurante" />
+        <Link to="/restaurante/">
+          <img className="img_logo" src={Logo} alt="Logo Restaurante" />
+        </Link>
       </div>
       <div className="nav_rigth">
-        <Link className="nav_link" to="/reservas">Reservas</Link>
-        <Link className="nav_link" to="/contacto">Contáctenos</Link>
+        <a
+          className="nav_link"
+          target="_blank"
+          href="https://wa.me/522283175642"
+        >
+          Reservas
+        </a>
+        <Link className="nav_link" to="/restaurante/contacto">
+          Contáctenos
+        </Link>
       </div>
     </nav>
   );

@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Sidebar,
   Navbar,
   Carousels,
   Cards,
@@ -17,8 +16,6 @@ import "../css/Landing.css";
 export default function Landing() {
   return (
     <div className="page_container">
-      {/* <Sidebar /> */}
-      <Navbar />
       <Carousels />
       <Cards />
       <Drink />
@@ -26,8 +23,6 @@ export default function Landing() {
       <Reservas />
       <Playlist />
       <Maps />
-      <Footer />
-      <Design />
     </div>
   );
 }

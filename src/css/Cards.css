@@ -11,13 +11,6 @@
   padding: 40px 10px 80px 10px;
 }
 
-.text_encabezado{
-  font-size: 2rem;
-  text-transform: uppercase;
-  margin: 15px 0;
-  color: #333333;
-}
-
 .card_top{
   padding: 0 100px;
   display: flex;
@@ -37,23 +30,8 @@
   width: 50%;
 }
 
-.text_encabezado_card{
-  font-size: 1.7rem;
-  text-transform: uppercase;
-  color: #333333;
-}
-
 .card_p{
   font-size: 1rem;
-}
-
-.card_link{
-  text-decoration: none;
-  text-align: center;
-  background-color: #664800;
-  color: #fff;
-  font-weight: 600;
-  padding: 10px;
 }
 
 .card_video{
