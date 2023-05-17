@@ -6,15 +6,12 @@ import "../css/Carousel.css";
 const slides = [
   {
     url: "img1.webp",
-    caption: "Bienvenido",
   },
   {
     url: "img2.webp",
-    caption: "Bienvenido",
   },
   {
     url: "img3.webp",
-    caption: "Bienvenido",
   },
 ];
 
@@ -56,7 +53,7 @@ export default function Carousel() {
         >
           <div className="slide-content">
             <h1 className="slide-welcome">Sabores auténticos de Coatepec</h1>
-            <p className="slide-caption">fusionando tradición y modernidad</p>
+            <h2 className="slide-caption">fusionando tradición y modernidad</h2>
           </div>
 
           <div className="arrow-container arrow-left" onClick={prevSlide}>

@@ -44,18 +44,20 @@ export default function Footer() {
         </ul>
       </div>
       <div className="redes">
-        <div>
+        <div className="container_redes">
           <a
             className="icon_redes"
             target="_blank"
             href="https://www.instagram.com/"
+            aria-label="Enlace a Instagram"
           >
-            <BsInstagram />{" "}
+            <BsInstagram />
           </a>
           <a
             className="icon_redes"
             target="_blank"
             href="https://www.facebook.com/"
+            aria-label="Enlace a Facebook"
           >
             <BsFacebook />
           </a>
@@ -63,15 +65,17 @@ export default function Footer() {
             className="icon_redes"
             target="_blank"
             href="https://twitter.com/home"
+            aria-label="Enlace a Twitter"
           >
             <BsTwitter />
           </a>
-          <a className="icon_redes" target="_blank" href="https://tiktok.com/">
+          <a className="icon_redes" aria-label="Enlace a Tiktok" target="_blank" href="https://tiktok.com/">
             <BsTiktok />
           </a>
           <a
             className="icon_redes"
             target="_blank"
+            aria-label="Enlace a Spotify"
             href="https://open.spotify.com/playlist/06mGAuGQMmvBJt7VmOOrO7?si=oqT5r_rdQg6D3N-h_Ajqtw"
           >
             <BsSpotify />
@@ -79,13 +83,14 @@ export default function Footer() {
           <a
             className="icon_redes"
             target="_blank"
+            aria-label="Enlace a Amazon Music"
             href="https://music.amazon.com.mx/user-playlists/a5d17264ca4f47cabf32bb52090e9544m12x?ref=dm_sh_xbYxCPRpTormJ6qIt9zUw96bT"
           >
             <FaAmazon />
           </a>
         </div>
-        <div className="correo_redes">
-          <span>origen@gmail.com</span>
+        <div>
+          <a  className="correo_redes" target="_blank" href="mailto:origen@gmail.com">origen@gmail.com</a>
         </div>
       </div>
     </footer>

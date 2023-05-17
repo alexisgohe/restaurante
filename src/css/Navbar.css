@@ -1,9 +1,10 @@
 .nav_container {
   display: flex;
   margin: auto;
+  height: 80px;
   justify-content: space-around;
   align-items: center;
-  background-color: #fff;
+  background-color: #fffdff;
   box-shadow: 0px 4px 6px -7px rgba(0,0,0,0.75);
 }
 
@@ -24,4 +25,53 @@
 
 .img_logo {
   width: 150px;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in-animation 0.5s ease-in forwards;
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  transform: translateX(-100%);
+  animation: slide-in-animation 0.5s ease-in forwards;
+}
+
+@keyframes slide-in-animation {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-in-top {
+  transform: translateY(-100%);
+  animation: slide-in-top-animation 0.5s ease-in forwards;
+}
+
+@keyframes slide-in-top-animation {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav_left,
+  .nav_rigth{
+    display: none;
+  }
 }

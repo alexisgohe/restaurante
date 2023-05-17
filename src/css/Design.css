@@ -1,7 +1,19 @@
 .container_design{
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
   background-color: #141618;
   color: #fff;
+}
+
+.text_desing{
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 480px){
+  .container_design{
+    flex-direction: column;
+  }
 }

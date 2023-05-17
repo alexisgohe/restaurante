@@ -5,7 +5,7 @@ import ThreeSixty from "react-360-view";
 export default function Drink() {
   return (
     <div className="container_drinks">
-      <h2 className="encabezado_drink">Escapa de lo ordinario con nuestros cocteles</h2>
+      <h2 className="paragraphs_span">Escapa de lo ordinario con nuestros cocteles</h2>
       <div className="container_drink">
         <div className="container_text">
           <h3 className="text_encabezado">Artesanía apasionada</h3>
@@ -17,7 +17,6 @@ export default function Drink() {
         </div>
         <div className="container_coctel">
           <ThreeSixty
-            className="coctel_size"
             amount={17}
             imagePath="coctel"
             fileName="cocktail_360_{index}.png"

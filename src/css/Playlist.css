@@ -5,13 +5,14 @@
   background-size: cover;
   width: 100%;
   display: flex;
-  padding: 40px 20px 0px 20px;
+  padding: 40px 50px 0px 20px;
   justify-content: space-between;
   align-items: center;
+  background-color: #765510;
 }
 
 .playlist_text {
-  color: #fff;
+  color: #fffdff;
   display: flex;
   flex-direction: column;
 }
@@ -32,14 +33,16 @@
 }
 
 .link_playlist {
+  width: 260px;
   text-decoration: none;
   color: #5e5e5e;
   background-color: #fff;
-  margin: 20px 10px;
+  margin: 15px 5px;
   border-radius: 40px;
   padding: 20px 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 1.05rem;
   font-weight: 700;
 }
@@ -54,10 +57,40 @@
 
 .container_img {
   width: 250px;
-  margin: 0 100px;
   display: flex;
 }
 
 .img_playlist {
   width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .container_playlist{
+    padding: 40px 20px 0px 20px;
+    flex-direction: column;
+    background-position: center;
+    text-align: center;
+  }
+  .container_img {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .link_plataforma{
+    flex-direction: column;
+    align-items: center;
+  }
+  .link_playlist {
+    width: auto;
+    height: 80px;
+  }
+  .container_img {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .img_playlist {
+    width: 60%;
+  }
 }

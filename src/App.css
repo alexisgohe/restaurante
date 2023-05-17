@@ -18,3 +18,21 @@
 .size_encabezado {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 992px){
+  .text_encabezado{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .text_encabezado{
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .text_encabezado{
+    font-size: 1.5rem;
+  }
+}

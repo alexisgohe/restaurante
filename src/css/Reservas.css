@@ -6,7 +6,7 @@
 .container_reservas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 15px;
 }
 
 .container_horario,
@@ -31,4 +31,15 @@
 
 .p_reserva{
   padding: 5px 0;
+}
+
+@media screen and (max-width: 480px){
+  .container_reservas {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container_horario,
+  .container_reserva,
+  .container_maps {
+    padding: 15px 0;
+  }
 }

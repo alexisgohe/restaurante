@@ -13,7 +13,6 @@ const Button = ({ text, link, page }) => {
     outline: "none",
     borderRadius: "5px",
     border: "none",
-    fontWeight: "bold",
     position: "relative",
     display: "inline-block",
     transition: "all 0.3s ease",

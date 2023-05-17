@@ -4,7 +4,8 @@
   grid-template-columns: repeat(3, 1fr);
   background-color: #000;
   color: #fff;
-  padding: 50px 100px;
+  gap: 15px;
+  padding: 50px;
 }
 
 .footer_logo {
@@ -32,6 +33,12 @@ li {
   font-size: 1.1rem;
 }
 
+.correo_redes,
+.container_redes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .icon_redes{
   display: inline-block;
@@ -41,4 +48,29 @@ li {
   margin: 8px;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+.link_footer:hover,
+.correo_redes:hover,
+.icon_redes:hover{
+  color: #644801;
+}
+
+@media screen and (max-width: 480px){
+  .container_footer {
+    padding: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer_logo {
+    width: 175px;
+  }
+  .container_logo,
+  .more-info,
+  .redes{
+    padding: 5px 0;
+  }
+
 }

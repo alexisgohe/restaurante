@@ -27,7 +27,7 @@ export default function Cards() {
               La Fajita Quesadilla ahora está disponible exclusivamente para
               recoger o entregar en línea y en la aplicación.
             </p>
-            <Button text="Ordena Ahora" page="_blank" link="https://wa.me/522283175642" />
+            <Button text="Ordena Ahora" page="_blank" link="https://wa.me/+522283175642" />
           </div>
           <div className="card_video">
             <video

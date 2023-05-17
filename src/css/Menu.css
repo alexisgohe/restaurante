@@ -1,4 +1,5 @@
-.container_menu{
+.container_menu {
+  background-color: #faead5;
   width: 100%;
   height: 400px;
   background-image: url(/menu.webp);
@@ -12,4 +13,22 @@
   align-items: flex-start;
   justify-content: center;
   gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container_menu {
+    background-position: 85% center;
+  }
+  .t_menu {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container_menu {
+    background-position: 64% center;
+  }
+  .t_menu {
+    width: auto;
+  }
 }
